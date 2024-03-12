@@ -1,0 +1,62 @@
+.contenedor1{
+    background-color: aquamarine;
+    padding: 10px;
+    display: flex;/*para que se ajusten a la pantalla*/
+    height: 300px;
+    width: 300px;
+    flex-direction: row;/*las cajas se mantienen en fila*/
+    /*flex-direction: row-reverse;/*es al reves*/
+    /*flex-direction: column;/*lo vuelve en columna*/
+    /*flex-wrap: wrap;*/
+    align-content: space-between;
+}
+
+
+.contenedor2{
+    background-color: darkolivegreen;
+    padding: 10px;
+    display: flex;/*para que se ajusten a la pantalla*/
+    height:  200px;
+    width: 200px;
+    /*flex-direction: row;/*las cajas se mantienen en fila*/
+    /*flex-direction: row-reverse;/*es al reves*/
+    /*flex-direction: column;/*lo vuelve en columna*/
+    /*flex-wrap: wrap;*/
+    align-content: space-between;
+    flex-direction: column;
+}
+
+.caja{
+    background-color: cadetblue;
+    margin: 5px;
+    /*display: inline-block;/*para q se pongan a un ladp*/
+    width: 150px;
+}
+.caja1{
+    background-color: chartreuse;
+    width: 150px;
+    margin: 5px;
+    flex-grow: 1;
+    order: 1;
+}
+.caja2{
+    background-color: burlywood;
+    width: 150px;
+    margin: 5px;
+    flex-grow: 7;
+    order: 4;
+}
+.caja3{
+    background-color: coral;
+    width: 150px;
+    margin: 5px;
+    flex-grow: 5;
+    order: 3;/*para cambiaer de orden de las cajas*/
+}
+.caja4{
+    background-color: blueviolet;
+    width: 150px;
+    margin: 5px;
+    flex-grow: 1;
+    order: 2;
+}
